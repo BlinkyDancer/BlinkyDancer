@@ -1,0 +1,74 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.22/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'fs' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 warn package.json bleadvertise@0.1.0 No repository field.
+5 warn package.json climate-si7020@0.1.0 No repository field.
+6 verbose cache add [ 'fs', null ]
+7 verbose cache add name=undefined spec="fs" args=["fs",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'fs',
+8 verbose parsed url   path: 'fs',
+8 verbose parsed url   href: 'fs' }
+9 silly lockFile 3f4bb586-fs fs
+10 verbose lock fs /Users/michellevu/.npm/3f4bb586-fs.lock
+11 silly lockFile 3f4bb586-fs fs
+12 silly lockFile 3f4bb586-fs fs
+13 verbose addNamed [ 'fs', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile a107b96b-fs fs@
+16 verbose lock fs@ /Users/michellevu/.npm/a107b96b-fs.lock
+17 silly addNameRange { name: 'fs', range: '*', hasData: false }
+18 verbose url raw fs
+19 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
+20 verbose url resolved https://registry.npmjs.org/fs
+21 info trying registry request attempt 1 at 16:07:46
+22 http GET https://registry.npmjs.org/fs
+23 http 404 https://registry.npmjs.org/fs
+24 silly registry.get cb [ 404,
+24 silly registry.get   { date: 'Sat, 19 Jul 2014 23:07:47 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     etag: '"5BQZWWEVHQEXWCPP0V3B1TODR"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=0',
+24 silly registry.get     'content-length': '397',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '0',
+24 silly registry.get     'x-served-by': 'cache-sjc3127-SJC',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1405811266.728680,VS0,VE354',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly addNameRange number 2 { name: 'fs', range: '*', hasData: true }
+26 silly addNameRange versions [ 'fs', [] ]
+27 error TypeError: Cannot read property 'latest' of undefined
+27 error     at next (/usr/local/Cellar/node/0.10.22/lib/node_modules/npm/lib/cache.js:687:35)
+27 error     at /usr/local/Cellar/node/0.10.22/lib/node_modules/npm/lib/cache.js:675:5
+27 error     at saved (/usr/local/Cellar/node/0.10.22/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+27 error     at /usr/local/Cellar/node/0.10.22/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7
+27 error     at Object.oncomplete (fs.js:107:15)
+28 error If you need help, you may report this log at:
+28 error     <http://github.com/isaacs/npm/issues>
+28 error or email it to:
+28 error     <npm-@googlegroups.com>
+29 error System Darwin 13.2.0
+30 error command "/usr/local/Cellar/node/0.10.22/bin/node" "/usr/local/bin/npm" "install" "fs"
+31 error cwd /Users/michellevu/Documents/Git/BlinkyDancer/tessel-code/camera
+32 error node -v v0.10.22
+33 error npm -v 1.3.14
+34 error type non_object_property_load
+35 verbose exit [ 1, true ]

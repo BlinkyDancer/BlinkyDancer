@@ -1,0 +1,6 @@
+Discovered peripheral! {"services":{},"rssi":-95,"advertisingData":
+
+[{"typeFlag":1,"type":"Flags","raw":{},"data":["LE General Discoverable Mode","BR/EDR Not Supported"],"byteOrder":"BE"},{"typeFlag":7,"type":"Complete List of 128-bit Service Class UUIDs","raw":{},"data":["be15beef6186407e83810bd89c4d8df4"],"byteOrder":"BE"},{"typeFlag":255,"type":"Manufacturer Specific Data","raw":{},"data":{},"byteOrder":"BE"}]
+
+,"address":"203.19.37.240.237.202"}
+203.19.37.240.237.202
